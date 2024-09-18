@@ -1,0 +1,57 @@
+body {
+    margin-bottom: 100px;
+    font-family: "Luckiest Guy", cursive;
+    margin: 0px;
+    color: rgb(251, 247, 247);
+    background-color: darkcyan
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 15px;
+    font-size: 30px;
+
+}
+
+.chamada {
+    background-color: rgba(144, 210, 217, 0.867);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos{
+display: flex;
+overflow-x: auto;
+gap:20px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(239, 11, 11);
+}
+
